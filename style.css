@@ -1,0 +1,156 @@
+/* CSS for index.html */
+body.index {
+    background-image: url("./images/new_landing.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* CSS for about.html */
+body.about {
+    background-image: url("./images/botanical.jpg");
+    background-size: cover;
+    background-position: right center;
+}
+
+/* CSS for education.html */
+body.education {
+    background-image: url("./images/education.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CSS for contact.html */
+body.contact {
+    background-image: url("./images/leaves.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* CSS for projects.html */
+body.projects {
+    background-image: url("./images/3d-earth-planet-shape.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: "Monteserrat", sans-serif;
+    color: #532504;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #7a563e;
+    font-weight: bolder;
+}   
+
+p {
+    color: #412203;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-right: 30px;
+    line-height: 1.5;
+    font-size: 26px;
+    max-width: 1000px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+
+nav {
+    float: right;
+    background-color: #6a5546;
+    border-radius: 15px;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #dfdcdb;
+    border-radius: 5px;
+    font-family: 'Arial Black', sans-serif;
+    font-weight: 800;
+    transition: background-color 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: #d5c1b6;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6a5546;
+    color: #ffffff;
+    font-family: 'Lucida Sans', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #898481;
+}
+
+footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.copyright {
+    font-size: 20px;
+    font-weight: 900;
+    color: #7a7575;
+}
+
+
+.skills-list {
+    margin-bottom: 20px;
+    list-style: circle inside;
+}
+
+.skills-list h4 {
+    margin-bottom: 5px;
+}
+
+.skills-list ul {
+    list-style-type: circle inside;
+    padding: 0;
+}
+
+.skills-list ul li {
+    margin-bottom: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    color: #524e33;
+}
+
+.project-card {
+    margin-bottom: 30px;
+}
+
+.project-card h3 {
+    margin-top: 15px;
+}
+
+.project-card a {
+    margin-right: 10px;
+}
