@@ -1,6 +1,6 @@
 # Lucille Jordaan Portfolio Website
 
-Welcome to my portfolio website! This project showcases my skills and projects in a visually appealing and interactive format. Designed using Bootstrap, CSS, and HTML, the website features multiple pages including the index.html, education.html, contact.html, and about.html.
+Welcome to my portfolio website! This website acts as a CV, showcasing my skills and projects in a visually appealing and interactive format. Designed using Bootstrap, CSS, and HTML, the website features multiple pages including the index.html, projects.html, education.html, contact.html, and about.html.
 
 ## Goal
 
@@ -19,10 +19,11 @@ The primary objective of this portfolio website is to serve as an interactive CV
   
 ## Files
 
-1. **index.html**: Homepage featuring an overview of my portfolio.
-2. **education.html**: Page showcasing my educational background.
-3. **contact.html**: Contact page for reaching out to me.
-4. **about.html**: About page providing insights into my professional journey.
+1. **projects.html**: Projects page featuring an overview of projects with links to the GitHub code.
+2. **index.html**: Homepage featuring an overview of my portfolio.
+3. **education.html**: Page showcasing my educational background.
+4. **contact.html**: Contact page for reaching out to me.
+5. **about.html**: About page providing insights into my professional journey.
 
 ## Styling
 
