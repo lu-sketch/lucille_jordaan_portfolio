@@ -29,7 +29,7 @@ body.contact {
 
 /* CSS for projects.html */
 body.projects {
-    background-image: url("./images/3d-earth-planet-shape.jpg");
+    background-image: url("./images/autumn.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,16 +107,31 @@ button:hover {
     background-color: #898481;
 }
 
+/* Footer container styling */
 footer {
-    text-align: right;
-    margin-top: 20px;
+    background-color: #343a40;  /* Dark background color */
+    color: #ffffff;             /* White text color */
+    text-align: center;         /* Center-align text */
+    padding: 1rem;              /* Padding around the footer */
+    margin-top: 3rem;           /* Top margin to add space from the main content */
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-.copyright {
-    font-size: 20px;
-    font-weight: 900;
-    color: #7a7575;
+/* Footer text styling */
+footer span {
+    font-size: 1rem;            /* Font size of footer text */
+    color: #ffffff;             /* Ensure text is white */
+    font-weight: 500;           /* Semi-bold text */
 }
+
+/* Additional container adjustments if necessary */
+footer .container {
+    max-width: 960px;           /* Limits footer width */
+    margin: 0 auto;             /* Center the container */
+}
+
 
 
 .skills-list {
